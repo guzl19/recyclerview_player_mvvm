@@ -1,0 +1,54 @@
+<resources>
+
+    <string-array name="audio_filter" translatable="false">
+
+        <!-- support -->
+        <item>.mp3</item>
+        <item>.ac3</item>
+        <item>.eac3</item>
+        <item>.aac</item>
+        <item>.heaac</item>
+        <item>.wma</item>
+        <item>.m4a</item>
+        <item>.ogg</item>
+        <item>.dts</item>
+        <item>.dmp</item>
+        <item>.lpcm</item>
+        <!-- 文档说明结束 -->
+        <item>.ra</item>
+        <item>.wav</item>
+        <item>.mp2</item>
+        <item>.flac</item>
+        <item>.mid</item>
+    </string-array>
+    <string-array name="video_filter" translatable="false">
+        <item>.mpg</item>
+        <item>.mpeg</item>
+        <item>.ts</item>
+        <item>.trp</item>
+        <item>.tp</item>
+        <item>.vob</item>
+        <item>.rm</item>
+        <item>.rmvb</item>
+        <item>.mkv</item>
+        <item>.webm</item>
+        <item>.avi</item>
+        <item>.divx</item>
+        <item>.asf</item>
+        <item>.wmv</item>
+        <item>.flv</item>
+        <item>.mp4</item>
+        <item>.3gp</item>
+        <item>.mov</item>
+        <item>.mpe</item>
+        <item>.m4v</item>
+    </string-array>
+    <string-array name="photo_filter" translatable="false">
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.bmp</item>
+        <item>.gif</item>
+    </string-array>
+
+</resources>

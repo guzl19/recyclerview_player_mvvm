@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="com.android.recyclerview_player_mvvm.ImageModel"/>
+        <variable
+            name="imageModel"
+            type="ImageModel"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@{imageModel.bitmap}"
+            android:onClick="@{()->imageModel.onClick()}"
+            android:onLongClick="@{imageModel.onLongClick}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{imageModel.name}"/>
+    </LinearLayout>
+
+</layout>
